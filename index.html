@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Tebak Angka</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <body>
+    <div class="container">
+      <div class="title">
+        <img src="tebak_angka.png" alt="tebak_angka" width="350px">
+      </div>
+      <p>Pilihlah <code>angka</code> dari <code>01</code> sampai <code>10</code>
+      </p>
+      <div class="bungkus">
+        <div class="inputBox">
+          <input type="number" id="userGuess" min="1" max="10" required="required">
+          <span>pilih</span>
+        </div>
+        <a href="#" onclick="checkGuess()" style="--clr:aquamarine">
+          <span class="pertama">
+            <span class="kedua">Cek Jawaban</span>
+          </span>
+        </a>
+      </div>
+      <br>
+      <br>
+      <p id="message"></p>
+    </div>
+    
+    <div class="footer">
+      <footer>
+        Copyright © 2023 by <code>Sahril Assyahra</code>
+      </footer>
+    </div>
+
+    <script src="rule.js"></script>
+  </body>
+</html>
