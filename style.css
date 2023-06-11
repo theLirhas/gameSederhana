@@ -12,6 +12,7 @@ body {
 p {
   font-size: 17px;
   margin-top: 15px;
+  font-family: Sans-Serif;
 }
 
 a {
@@ -44,6 +45,12 @@ a:before {
 a .pertama {
   position: relative;
   z-index: 1;
+}
+.kedua span {
+  font-family: Sans-Serif;
+}
+span {
+  font-family: Sans-Serif;
 }
 
 a .kedua::before {
@@ -159,6 +166,7 @@ code {
   bottom: 0;
   width: 90%;
   text-align: center;
+  font-family: Sans-Serif;
   padding: 10px;
   background-color: #27282c;
   color: grey;
@@ -171,5 +179,5 @@ code {
 }
 
 * {
-  font-family: Sans-Serif;
+  
 }
