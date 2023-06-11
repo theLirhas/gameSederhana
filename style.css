@@ -169,3 +169,7 @@ code {
     width: 97%;
   }
 }
+
+* {
+  font-family: Sans-Serif;
+}
